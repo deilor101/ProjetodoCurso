@@ -1,7 +1,7 @@
 import './styles.css'
 
 
-export const Postcard = ({title, cover, body}) => {
+ const Postcard = ({title, cover, body}) => {
     return(
     <div className='post'>
         <img src={cover} alt={title} />
@@ -12,3 +12,5 @@ export const Postcard = ({title, cover, body}) => {
     </div>  
     )
 };
+
+export default Postcard
